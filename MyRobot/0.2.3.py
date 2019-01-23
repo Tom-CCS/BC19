@@ -9,11 +9,11 @@ import random
 
 #Version: 0.2.3 bugfree
 #Last Edit: Shengtong Zhang
-#Description: This bot will:
-#1. build pilgrims to mine karbo/fuel and build preacher to attack the opponent's castle.
+#Description: This bot will
+#1. build pilgrims to mine karbo/fuel and build preacher to attack the opponent's castle
 #2. Enable every preacher to carry two positions of enemy's castles; preachers will turn to second location when finished
 #3. In case of unexpected path-finding mistakes, preachers will turn back home
-#4. Uses a less stable, yet clock-suitable version of DFS proposed by Deng.
+#4. Uses a less stable, yet clock-suitable version of DFS proposed by Deng
 class MyRobot(BCAbstractRobot):
     def __init__(self):
         BCAbstractRobot.__init__(self)
